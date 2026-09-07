@@ -1,4 +1,4 @@
-# Proyecto de Pruebas de API - Creación de Kits de Usuario
+# Proyecto de Pruebas de API - Urban Grocers
 
 ## Descripción
 Este proyecto contiene pruebas automatizadas para la API de la aplicación. El objetivo es verificar la funcionalidad de creación de un kit de productos ("kit personal") para un usuario recién creado, validando distintos escenarios para el campo `name` según los límites y restricciones establecidas.
