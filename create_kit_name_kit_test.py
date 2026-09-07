@@ -76,11 +76,11 @@ def test_7_create_kit_numbers_in_name_get_success_response():
 
 # Prueba 8: El parámetro no se pasa
 def test_8_create_kit_no_name_get_error_response():
-    kit_body = {}  # Diccionario vacío, sin el campo 'name'
+    kit_body = {}
     negative_assert_code_400(kit_body)
 
 
 # Prueba 9: Tipo de parámetro diferente (número en lugar de string)
 def test_9_create_kit_number_type_name_get_error_response():
-    kit_body = get_kit_body(123)  # Pasamos el número directamente, no entre comillas
+    kit_body = get_kit_body(123)
     negative_assert_code_400(kit_body)
